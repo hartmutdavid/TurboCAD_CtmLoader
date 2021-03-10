@@ -3,6 +3,7 @@ rd /s /q __recovery
 rd /s /q bin\Win64\Release
 del /q bin\Win64\Debug\*.exe
 del /q bin\Win64\Debug\*.rsm
+del /q bin\Win64\Debug\TCDIAGNOSTIC.*
 rd /s /q dcu
 rd /s /q Save
 
